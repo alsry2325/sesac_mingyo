@@ -78,7 +78,7 @@ print(len(num_list))
 nested =[[1,23,"sds",14],[1,2,3],[12,14,24,15,16]]
 
 print(len(nested)) #3
-
+print(len(nested[0])) #4 
 nested_list = [
     ["a","b","c","d"],
     ["a","v"],
@@ -96,10 +96,10 @@ print(nested_list[1][1]) # v가 나옴
 a = []
 b = ["p","t","d"]
 
-a.append(10)
-a.append(13)
+b.append(10)
+b.append(13)
 # 하나의 값만 추가가 가능하다
-print(a)
+print(b)
 
 b.append([1,2,56])
 
@@ -109,6 +109,7 @@ print(b)
 
 a = [1,2,3,484,"12",[1,2,3,4]]
 a[-1].insert(0,"배열 첫번째값 추가")
+print(a)
 a.insert(2,"test") #[1, 2, 'test', 3, 484, '12', ['배열 첫번째값 추가', 1, 2, 3, 4]]
 print(a)
 

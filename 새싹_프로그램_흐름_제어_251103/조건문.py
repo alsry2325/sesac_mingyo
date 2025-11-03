@@ -29,7 +29,7 @@ if num % 2 == 0:
     print(num,"짝수입니다")
 
 
-#if - else문 
+# 
 #만약에 조건이 맞지 않을때는 else 구문을 실행
 
 num = int(input("정수를 입력하세요 :"))
