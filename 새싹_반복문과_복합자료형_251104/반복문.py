@@ -7,7 +7,7 @@
 
 #시퀀스에서 원소를 하나씩 가져와서 명령을 실행  
 
-'''
+''' 
 for 변수 in 시퀀스:
     <수행할 명령>
     <수행할 명령>
@@ -50,7 +50,8 @@ for (first,last) in a:
 #n회동안 명령을 실행해라
 
 nuum_list = [1,23,4,5,3]
-
+for i in range(1,10):
+    print(i)
 for i in range(5,10): #b - a번 반복
     print(i) #5,6,7,8,9
 
@@ -63,6 +64,7 @@ for i in range(5,10,2): #b - a번 반복
 
 nuum_list = [1,23,45,1223,1232]
 
+#구간 반복
 for i in range(len(nuum_list)):
     #len(num_list) == 5
     #range(5) 0부터 5미만까지 

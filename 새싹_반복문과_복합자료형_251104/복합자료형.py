@@ -54,15 +54,15 @@ a,b,c = int(input().split())
 print(type(a))
 print(type(b))
 print(type(c))
-
 '''
 # 그래서 정수형으로 바꿔주려면 map()함수를 활용해야한다
 #변환함수를 적용하여 변환된 새로운 리스트를 반환
 
 # a,b,c = list(map(int,input().split())) 
-# print(type(a))
-# print(type(b))
-# print(type(c))
+a,b,c = map(int,input().split())
+print(type(a))
+print(type(b))
+print(type(c))
 
 #딕셔너리 Dictionary = 사전
 # 단어와 뜻이 하나의 쌍을 이루는 자료형 key와 value 값을 가진다
@@ -79,7 +79,8 @@ person = {
     }
 
 #값 꺼내오기
-print(person["name"])
+# print(person["name"])
+print(person[name])
 print(person["age"])
 print(person["address"])
 print(person["phone_number"])
