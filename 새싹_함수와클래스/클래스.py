@@ -25,7 +25,7 @@
 self키워드 : 객체 자기 자신을 의미하는 키워드  예를 들어 나는 이름은 민교이고 나이는 23살이다
 '''
 class Person:
-    def __init__(self,name,age):  #생성자
+    def __init__(self,name,age):  #생성자 
         self.name = name
         self.age = age
     
