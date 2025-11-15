@@ -157,7 +157,4 @@ while i < len(numbers):
  #   print("\n======쇼핑몰 메뉴=====")
 
 
-
-
-
     
