@@ -197,19 +197,21 @@ for column in columns:
     df[column] = df[column].str.replace(",","") 
     df[column] = df[column].str.replace("-","0") 
     
+print(df[column])
 # #데이터 타입 변환하기
-# df["어른"] = df["어른"].astype(int)
-# print(df["어른"])
+df["어른"] = df["어른"].astype(int)
+print(df["어른"])
+df.info()
 # #숫자형 타입으로 바꾸는법
-# df["유료합계"] = pd.to_numeric(df["유료합계"])
-# print(df["유료합계"] )
+df["유료합계"] = pd.to_numeric(df["유료합계"])
+print(df["유료합계"] )
 
 #전체를 숫자형타입으로 바꾸기
 for column in columns:
     df[column] = pd.to_numeric(df[column])
 
 df.info()
-
+df[column]
 #날짜형 타입으로 변환
 df["날짜"] = pd.to_datetime(df["날짜"])
 
